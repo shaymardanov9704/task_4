@@ -3,8 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:task_4/theme/app_colors.dart';
 
 class Profile extends StatelessWidget {
-  final String name = 'Umidaxon';
-  final String email = 'email';
+
   const Profile({Key? key}) : super(key: key);
 
   @override
@@ -21,7 +20,7 @@ class Profile extends StatelessWidget {
               Center(
                 child: ClipRRect(
                   borderRadius:const BorderRadius.all(Radius.circular(64)),
-                  child: Image.asset('assets/images/mw_2.jpg',fit: BoxFit.cover,height: 128,width: 128),
+                  child: Image.asset('assets/images/stark.jpeg',fit: BoxFit.cover,height: 128,width: 128),
                 ),
               ),
               const SizedBox(height: 16),

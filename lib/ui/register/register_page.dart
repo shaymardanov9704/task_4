@@ -34,7 +34,7 @@ class _RegisterState extends State<Register> {
                 },
                 child: const Icon(
                   CupertinoIcons.arrow_turn_up_left,
-                  size: 13,
+                  size: 15,
                 ),
               ),
               const SizedBox(
