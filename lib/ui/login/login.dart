@@ -108,7 +108,7 @@ class _LoginState extends State<Login> {
               ),
               GestureDetector(
                 onTap: (){
-                  Navigator.pushNamed(context, AppRoutes.profile,arguments: [emailController.text.toString(),'']);
+                  Navigator.pushNamed(context, AppRoutes.photoGramMainScreen,arguments: ['',emailController.text.toString()]);
                 },
                 child: Container(
                   width: MediaQuery.of(context).size.width,

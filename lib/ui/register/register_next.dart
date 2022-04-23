@@ -79,7 +79,7 @@ class _RegisterNextState extends State<RegisterNext> {
               ),
               GestureDetector(
                 onTap: (){
-                  Navigator.pushNamed(context, AppRoutes.profile,arguments: [nameController.text.toString(),email]
+                  Navigator.pushNamed(context, AppRoutes.photoGramMainScreen,arguments: [nameController.text.toString(),email]
                   );
                 },
                 child: Container(
